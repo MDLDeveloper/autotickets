@@ -1,9 +1,13 @@
     {
         "manifest_version": 3,
         "name": "Autoticket",
-        "version": "0.0.1 alpha",
+        "version": "1.0",
         "description": "Extención para automatizar el proceso de autalización de tickets en el sm.correoargentino.com.ar",
         "icons": {
-            "128": "icons/icon_tickets.ico"
+            "128": "icons/icons_tickets.ico"
+        },
+        "action": {
+            "default_icon": "icons/icons_tickets.ico",
+            "default_popup": "popup.html"
         }
     }
